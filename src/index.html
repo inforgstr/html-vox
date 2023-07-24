@@ -8,6 +8,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="css/navbar_footer.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="./js/dropdown.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -295,7 +296,7 @@
                 <div class="title">understand the news with</div>
                 <div class="podcast-message-inner">Today, Explained</div>
                 <div class="sub-btn">
-                    <button onclick="subDropDown()">
+                    <button id="first">
                         Subscribe
                         <span>
                             <svg width="25px" height="25px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -306,7 +307,7 @@
                             </svg>
                         </span>
                     </button>
-                    <div class="btn-dropdown" style="display: none;">
+                    <div class="btn-dropdown __initial" style="display: none;">
                         <ul>
                             <li><a
                                     href="https://itunes.apple.com/us/podcast/today-explained/id1346207297?mt=2">Apple</a>
@@ -778,7 +779,7 @@
                 <div class="title">podcast</div>
                 <div class="podcast-message-inner">The Weeds</div>
                 <div class="sub-btn">
-                    <button onclick="subDropDown()">
+                    <button id="second">
                         Subscribe
                         <span>
                             <svg width="25px" height="25px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -789,7 +790,7 @@
                             </svg>
                         </span>
                     </button>
-                    <div class="btn-dropdown" style="display: none;">
+                    <div class="btn-dropdown __last" style="display: none;">
                         <ul>
                             <li><a href="https://itunes.apple.com/us/podcast/the-weeds/id1042433083">Apple</a>
                             </li>
